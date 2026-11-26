@@ -34,20 +34,26 @@
             // PrintBookTitles.PrintBookTitle("Clean Code");
             #endregion
 
-            #region
+
             #region Q5
             //Write a method AddBonusPages(int pages) that adds 50 to pages.
             //Call it with a variable int pages = 400; and print pages afterward.
             //What do you expect to see, and why?
-            int pages = 400;
-            AddBounsPages.AddBonusPages(pages);
-            Console.WriteLine(pages);
+            //int pages = 400;
+            //AddBounsPages.AddBonusPages(pages);
+            //Console.WriteLine(pages);
             // i expect to see 400 because when we call the method it creates a copy of the original variable and work on it without affecting the original variable
             // and after the method is done it deletes the copy and returns to the original variable which is still 400
             #endregion
+
+
+            #region Q6
+            //Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0].Call it
+            //with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward.What do you expect to see, and why?
+            double[] prices = { 25.5, 40.0 };
+            ApplyDiscounts.ApplyDiscount(prices);
+            Console.WriteLine(prices[0]);
             #endregion
-
-
 
 
         }
