@@ -31,9 +31,21 @@
 
             #region Q4
             //Write a method PrintBookTitle(string title) that prints "Book title: " + title.Call it with "Clean Code".
-            PrintBookTitles.PrintBookTitle("Clean Code");
+            // PrintBookTitles.PrintBookTitle("Clean Code");
             #endregion
 
+            #region
+            #region Q5
+            //Write a method AddBonusPages(int pages) that adds 50 to pages.
+            //Call it with a variable int pages = 400; and print pages afterward.
+            //What do you expect to see, and why?
+            int pages = 400;
+            AddBounsPages.AddBonusPages(pages);
+            Console.WriteLine(pages);
+            // i expect to see 400 because when we call the method it creates a copy of the original variable and work on it without affecting the original variable
+            // and after the method is done it deletes the copy and returns to the original variable which is still 400
+            #endregion
+            #endregion
 
 
 
