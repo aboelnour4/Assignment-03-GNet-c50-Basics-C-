@@ -50,11 +50,20 @@
             #region Q6
             //Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0].Call it
             //with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward.What do you expect to see, and why?
-            double[] prices = { 25.5, 40.0 };
-            ApplyDiscounts.ApplyDiscount(prices);
-            Console.WriteLine(prices[0]);
+            // double[] prices = { 25.5, 40.0 };
+            // ApplyDiscounts.ApplyDiscount(prices);
+            // Console.WriteLine(prices[0]);
             #endregion
 
+
+            #region Q7
+            //Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref.
+            //Call it and print pages afterward. How is the result different from question 5 ?
+            int pages = 400;
+            AddBounsPages.AddBonusPages(ref pages);
+            Console.WriteLine(pages);
+            
+            #endregion
 
         }
     }
